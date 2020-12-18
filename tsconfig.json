@@ -14,7 +14,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-json-datetime-interceptor": [
+        "dist/ngx-json-datetime-interceptor/ngx-json-datetime-interceptor",
+        "dist/ngx-json-datetime-interceptor"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
